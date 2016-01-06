@@ -1,4 +1,14 @@
+
+
 <?php
+
+add_action( 'wp_enqueue_scripts', 'RebeccaReese_load_scripts' );
+function RebeccaReese_load_scripts()
+{
+wp_enqueue_script( 'jquery' );
+}
+
+/*
 add_action( 'after_setup_theme', 'RebeccaReese_setup' );
 function RebeccaReese_setup()
 {
@@ -12,11 +22,7 @@ register_nav_menus(
 array( 'main-menu' => __( 'Main Menu', 'RebeccaReese' ) )
 );
 }
-add_action( 'wp_enqueue_scripts', 'RebeccaReese_load_scripts' );
-function RebeccaReese_load_scripts()
-{
-wp_enqueue_script( 'jquery' );
-}
+
 add_action( 'comment_form_before', 'RebeccaReese_enqueue_comment_reply_script' );
 function RebeccaReese_enqueue_comment_reply_script()
 {
@@ -65,3 +71,6 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+
+*/
+
