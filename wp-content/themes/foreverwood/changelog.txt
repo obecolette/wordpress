@@ -9,6 +9,13 @@ Changelog Legend:
 
 ----
 
+(14/01/2016) - Update - Version 2.0.1
+
+[*] Removed platform specific styling to form elements by setting -webkit-appearance and -moz-appearance to "none".
+[*] Set font-family for elements that use the ElegantIcons font to avoid CSS conflicts when a custom font is set for the body.
+
+----
+
 (25/11/2015) - Update - Version 2.0.0
 
 [*] Moved custom Theme Options to the Customizer API.

@@ -4,7 +4,7 @@ Theme URI: http://www.tomastoman.cz/foreverwood/
 Author: Tomas Toman
 Author URI: http://www.tomastoman.cz/
 Description: ForeverWood is an easily customizable multipurpose theme. It is a minimalistic, fully responsive and Retina ready theme that allows for easy viewing on any device. It can be adapted to your needs using the Theme Customizer. ForeverWood theme offers 3 pre-defined color schemes, 220 Google fonts, selection between Wide or Boxed layout, 2 blog layouts (One Column and Masonry Grid), 2 header layouts, sidebar and footer widget areas, ability to set your header logo and favicon, theme documentation and much more. Supports popular plugins WooCommerce and Breadcrumb NavXT. Available in Czech, Dutch, English, French, German, Italian, Russian, Slovak, Spanish and Turkish.
-Version: 2.0.0
+Version: 2.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, black, white, gray, green, red, orange, one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-header, custom-colors, custom-menu, featured-images, full-width-template, sticky-post, theme-options, translation-ready, editor-style, rtl-language-support
@@ -286,6 +286,7 @@ body {
   color: #111111;
   cursor: pointer;
   display: block;
+  font-family: ElegantIcons !important;
   font-size: 21px;
   height: 21px;
   line-height: 21px;
@@ -1281,6 +1282,8 @@ select {
   line-height: normal;
   padding: 5px;
   width: 50%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 textarea {
 	overflow: auto;
@@ -1299,7 +1302,9 @@ input[type="reset"] {
   padding: 7px 10px;
   text-align: center;
   text-decoration: none; 
-  text-shadow: none;                  
+  text-shadow: none;  
+  -webkit-appearance: none;
+  -moz-appearance: none;                
 }
 input[type="submit"],
 input[type="reset"],
@@ -1332,13 +1337,16 @@ input[type="reset"]:hover,
   position: absolute;
   left: 0;
   top: 0;
-  width: 96%;              
+  width: 96%;  
+  -webkit-appearance: none;
+  -moz-appearance: none;            
 }
 #searchform .searchform-wrapper .send {
   background-color: #eead51;
   border: none;
   color: white;
   cursor: pointer;
+  font-family: ElegantIcons !important;
   font-size: 15px;
   height: 33px;
   line-height: 33px;
@@ -1350,6 +1358,8 @@ input[type="reset"]:hover,
   text-align: center; 
   width: 33px;
   z-index: 20;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   -webkit-transition: background-color 1s ease;
      -moz-transition: background-color 1s ease;
        -o-transition: background-color 1s ease;
@@ -1575,6 +1585,8 @@ input[type="reset"]:hover,
     margin: 4px 0 0; 
     position: relative;
     width: 40%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
   .js .header-content .selectnav,
   .js .menu-panel-wrapper .selectnav {

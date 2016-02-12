@@ -1,0 +1,19 @@
+.menu-main-container {
+  ul {
+    >li {
+      width: 100%;
+      padding: 10px;
+      // :hover {
+      //   background-color: black;
+      //   transition: .5s;
+      //}
+      a {
+        color: gray;
+        text-decoration: none;
+      }
+        >li {
+          display: none;
+        }
+    }
+  }
+}

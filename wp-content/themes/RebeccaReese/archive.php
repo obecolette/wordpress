@@ -8,6 +8,7 @@ elseif ( is_year() ) { printf( __( 'Yearly Archives: %s', 'RebeccaReese' ), get_
 else { _e( 'Archives', 'RebeccaReese' ); }
 ?></h1>
 </header>
+archive.php
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php get_template_part( 'entry' ); ?>
 <?php endwhile; endif; ?>

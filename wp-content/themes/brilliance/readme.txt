@@ -32,6 +32,10 @@ Magnific Popup - http://dimsemenov.com/plugins/magnific-popup/
 License: MIT License
 Copyright: Stephane Caron
 
-Screenshot and all image resources
+Homepage Slider Image - http://jaymantri.com/
+License: CC0 License
+Copyright: Jay Mantri
+
+All other image resources
 License: GPLv2 General Public License
 Copyright: Manuel Vicedo

@@ -1,0 +1,33 @@
+.menu-main-container ul > li {
+  width: 100%;
+  padding: 10px; }
+  .menu-main-container ul > li a {
+    color: gray;
+    text-decoration: none; }
+  .menu-main-container ul > li > li {
+    display: none; }
+
+body {
+  font-family: helvetica;
+  font-weight: lighter;
+  background-color: white; }
+  body header {
+    background-color: white; }
+    body header div {
+      text-align: center; }
+  body #container {
+    background-color: white;
+    color: black; }
+    body #container h1 {
+      font-size: 24px;
+      line-height: 48px; }
+    body #container p {
+      line-height: 16px;
+      padding-bottom: 16px; }
+  body footer {
+    border: 1px red solid;
+    background-color: gray;
+    color: white;
+    text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
